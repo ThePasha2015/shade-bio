@@ -64,9 +64,55 @@
                 </a>
             </div>
         </div>
-        <div class="desc">Kısaca kendimden bahsetmek gerekirse. Adım İbrahim 
-            yaşım 20 yaklaşık 2015 Ocak 1 tarihinden beridir sanaldayım discord botları ai coverler vb şeyler ile ilgileniyorum 
-            sosyal medya hesaplarımın linkleri aşağıda bulunmakta tıklayarak ulaşabilirsiniz ^^</div>
+        <!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biyografi Ekle</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; margin: 50px; }
+        #bio-container { margin-top: 20px; padding: 20px; border: 1px solid #ccc; display: none; }
+    </style>
+</head>
+<body>
+
+    <h2>Biyografi Ekle</h2>
+    
+    <form id="bioForm">
+        <label for="name">Adınız:</label><br>
+        <input type="text" id="name" required><br><br>
+        
+        <label for="bio">Biyografiniz:</label><br>
+        <textarea id="bio" rows="4" cols="30" required></textarea><br><br>
+        
+        <button type="button" onclick="saveBio()">Kaydet</button>
+    </form>
+
+    <div id="bio-container">
+        <h3>Biyografiniz:</h3>
+        <p><strong>Ad:</strong> <span id="displayName"></span></p>
+        <p><strong>Biyografi:</strong> <span id="displayBio"></span></p>
+    </div>
+
+    <script>
+        function saveBio() {
+            var name = document.getElementById("name").value;
+            var bio = document.getElementById("bio").value;
+
+            if (name.trim() === "" || bio.trim() === "") {
+                alert("Lütfen tüm alanları doldurun!");
+                return;
+            }
+
+            document.getElementById("displayName").innerText = name;
+            document.getElementById("displayBio").innerText = bio;
+            document.getElementById("bio-container").style.display = "block";
+        }
+    </script>
+
+</body>
+</html>
     </div>
 
     <script src="assets/js/script.js"></script>
