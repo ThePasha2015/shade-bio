@@ -1,6 +1,6 @@
 ## Developed By Shadeshu
 
-[![Discord Presence](api.lanyard.rest/v1/users/1090629202845372477)](https://discord.com/users/1090629202845372477)
+[![Discord Presence](https://api.lanyard.rest/v1/users/1090629202845372477)](https://discord.com/users/1090629202845372477)
 
 # Demo
 
