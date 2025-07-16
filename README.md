@@ -10,5 +10,5 @@ View: https://kisisel-website.vercel.app
 <h2 align="center">
 <img alt="followers" title="Github'dan Takip Et" src="https://img.shields.io/github/followers/ThePasha2015?color=236ad3&labelColor=1155ba&style=for-the-badge&logo=github&label=follower" width="110px" /></a>
  <br> </br>
-<img style="border-radius: 10px;" width="50%" src="https://cdn.discordapp.com/banners/882582406358515713/a1b27b550b72b4643ee6a769fafe4a6e.png?size=512">
+<img style="border-radius: 10px;" width="50%" src="https://cdn.discordapp.com/banners/1390406831645659220/a_e4f92567aa30cfc97cd7c45d6a6f5100.gif?size=1024&animated=true">
 </h2>
